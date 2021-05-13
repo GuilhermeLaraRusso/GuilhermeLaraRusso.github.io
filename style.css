@@ -8,11 +8,11 @@ h1 {
 }
 
 h2 {
-  font-size: 26px;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 p {
@@ -34,8 +34,26 @@ li {
 
 #linkedin {
   margin-left: 42px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 15px 25px;
+  border-radius: 6px;
 }
 
+
 #links {
-  margin-left: 42px;
+
+  padding-left:42px;
+}
+
+.links-externos {
+  padding-inline-start: 42px;
+  font-size: 20px;
+}
+
+#linkedin-button {
+  margin-top: 100px;
 }
