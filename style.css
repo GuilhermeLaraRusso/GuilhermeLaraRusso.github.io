@@ -1,0 +1,59 @@
+body {
+  background-color: #edf6f9;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+li {
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#linkedin {
+  margin-left: 42px;
+  background-color: #0077b5;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 24px;
+  padding: 15px 25px;
+  border-radius: 6px;
+}
+
+
+#links {
+
+  padding-left:42px;
+}
+
+.links-externos {
+  padding-inline-start: 42px;
+  font-size: 20px;
+}
+
+#linkedin-button {
+  margin-top: 100px;
+}
