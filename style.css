@@ -1,8 +1,6 @@
-body {
-  margin: unset;
-  border: unset;
-  padding: unset;
-  background-color:white;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -56,11 +54,30 @@ li {
   float: left;
 }
 
+
+
 .header {
-  background-color: beige;
-  padding: 10px;
-  margin: 0;
-  border: 0;
+  background-image: url(images/pexels-neo-2653362.jpg);
+  background-position: 50% 25%;
+  background-size: cover;
+  top: 200px;
+  padding: 15px 30px 1000px;
+}
+
+#header-content h1 {
+  color: white;
+  position:absolute;
+  font-size: 50px;
+  left: 50px;
+  top: 350px;
+}
+
+#header-content h2 {
+  color: white;
+  position:absolute;
+  top: 415px;
+  left: 65px;
+  font-size: 35px;
 }
 
 .foto-perfil {
@@ -68,6 +85,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   width: 300px;
+  border-radius: 50%;
 }
 
 .mini-bandeiras {
@@ -80,4 +98,39 @@ li {
 
 .links-uteis {
   margin-bottom: 50px;
+}
+
+.indice {
+  padding: 10px 90px 60px 50px;
+  background-size: cover;
+  background-position: 100%;
+  background-color: gray;
+  border-bottom: greenyellow 7px solid;
+  width: 30%;
+  display: inline-block;
+  position:fixed;
+  width: 100vw;
+  z-index: 999;
+}
+
+.indice h1 {
+  color: aliceblue;
+  position: relative;
+  text-align: right;
+  padding-right: 100px;
+}
+
+.indice h2 {
+  color: aliceblue;
+  /* position: relative; */
+  /* text-align: right; */
+  padding-right: 100px;
+}
+
+#quemsou-titulo {
+  margin-bottom: 10px;
+}
+
+.quemsou p {
+  margin-bottom: 20px;
 }
